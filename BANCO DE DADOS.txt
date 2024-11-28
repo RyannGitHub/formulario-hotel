@@ -1,0 +1,21 @@
+CREATE DATABASE hotel;
+
+USE hotel;
+
+CREATE TABLE reservas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    telefone VARCHAR(15) NOT NULL,
+    documento VARCHAR(50) NOT NULL,
+    criancas INT NOT NULL,
+    adultos INT NOT NULL,
+    info_adicional TEXT,
+    numero_cartao VARCHAR(19) NOT NULL,
+    cvv VARCHAR(3) NOT NULL,
+    data_validade VARCHAR(5) NOT NULL,
+    tipo_quarto VARCHAR(20) NOT NULL,
+    info_complementar TEXT,
+    data_chegada DATE NOT NULL,
+    data_saida DATE NOT NULL
+);

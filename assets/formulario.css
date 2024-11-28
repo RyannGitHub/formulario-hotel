@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(Hotel.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #08a88e;
+}
+h4 {
+    text-align: center;
+    background-color: #08a88e;
+}
+
+.form-container div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="radio"],
+input[type="textarea"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #072e07;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical;
+
+}
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+.checkbox-group label {
+    font-weight: normal;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #08a88e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+    
+button:hover {
+    background-color: #4cae4c;
+    }
