@@ -15,5 +15,3 @@ Este é um projeto de formulário de hotel desenvolvido com **HTML**, **CSS**, *
 - **PHP** – processamento dos dados do formulário e interação com o banco de dados
 - **MySQL** – armazenamento das reservas
 
-## 💾 Estrutura do Projeto
-
