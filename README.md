@@ -3,6 +3,3 @@
 
 <h2>Feito por<br>
 Ryan Gama Duarte - 2845789<br>
-Lucas Pereira da Silva 2870170<br>
-Gerson Patzi Choque 2884870<br>
-Eloisa Beatriz Nogueira Dos Santos 2759637</h2>
